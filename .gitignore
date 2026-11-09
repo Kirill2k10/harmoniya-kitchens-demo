@@ -1,0 +1,36 @@
+# Dependencies, temporary output and logs
+node_modules/
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+*.local
+.npmrc
+.netrc
+_netrc
+.secrets/
+secrets/
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.sublime-workspace
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/

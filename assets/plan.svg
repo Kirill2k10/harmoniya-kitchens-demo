@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 365">
+  <defs>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0v16" fill="none" stroke="#c6b9a6" stroke-width=".6"/></pattern>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v6" stroke="#9d7860" opacity=".53"/></pattern>
+    <marker id="tick" viewBox="0 0 5 7" refX="2.5" refY="3.5" markerWidth="5" markerHeight="7" orient="auto-start-reverse"><path d="m0 7 5-7" stroke="#8c6952"/></marker>
+  </defs>
+  <rect x="38" y="22" width="484" height="320" fill="url(#grid)"/>
+  <path d="M119 74h322v228H119z" fill="#ede4d7" stroke="#514538" stroke-width="1.8"/>
+  <path d="M119 302V74h322v228h-60m-64 0H119" fill="none" stroke="#514538" stroke-width="5"/>
+  <path d="M119 74h322v45H165v183h-46z" fill="url(#hatch)" stroke="#654d3c"/>
+  <path d="M165 74v45m55-45v45m61-45v45m59-45v45m53-45v45m-274 46h46m-46 51h46m-46 44h46" fill="none" stroke="#8c6952"/>
+  <g stroke="#6b5444" fill="none">
+    <rect x="230" y="82" width="41" height="29" rx="2"/>
+    <rect x="234" y="86" width="23" height="21" rx="3"/>
+    <path d="M249 85v10m12-7h6m-6 4h6m-6 4h6m-6 4h6m-6 4h6"/>
+    <rect x="128" y="172" width="29" height="38" rx="2"/>
+    <circle cx="136" cy="181" r="4"/><circle cx="149" cy="182" r="4.5"/><circle cx="136" cy="198" r="5"/><circle cx="149" cy="200" r="3.5"/>
+    <path d="M381 302v-64a64 64 0 0 0-64 64" stroke-dasharray="3 3"/>
+  </g>
+  <g fill="#c4a185" stroke="#795741">
+    <rect x="236" y="168" width="130" height="60"/>
+    <path d="M236 207h130" fill="none"/>
+    <path d="M249 229v9a11 11 0 0 0 22 0v-9m17 0v9a11 11 0 0 0 22 0v-9m17 0v9a11 11 0 0 0 22 0v-9" fill="none"/>
+  </g>
+  <g stroke="#8c6952" stroke-width=".8" fill="none">
+    <path d="M119 50h322M88 74v228M236 151h130" marker-start="url(#tick)" marker-end="url(#tick)"/>
+    <path d="M119 43v24m322-24v24M78 74h30M78 302h30m128-158v17m130-17v17"/>
+    <path d="M436 246h47l20-20m-390-17H55l-12-12m332-10h89l22-22" stroke-dasharray="3 3"/>
+    <path d="M479 315h27m-13-13v26"/>
+    <circle cx="492.5" cy="315" r="5"/>
+  </g>
+  <g fill="#72513b" font-family="system-ui,sans-serif" font-size="10" letter-spacing="1.5">
+    <text x="280" y="44" text-anchor="middle">ЗОНА ХРАНЕНИЯ</text>
+    <text x="301" y="197" text-anchor="middle">ОСТРОВ</text>
+    <text x="479" y="158">01</text><text x="37" y="193">02</text><text x="504" y="221">03</text>
+  </g>
+</svg>
